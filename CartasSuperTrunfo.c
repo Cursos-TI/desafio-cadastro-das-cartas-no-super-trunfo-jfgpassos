@@ -16,10 +16,10 @@ int main() {
 printf("Carta_1");
 
 printf("Cidade: \n");
-scanf("%d", Cidade);
+scanf("%s", Cidade);
 
 printf("Populução: \n");
-scanf("%d", População);
+scanf("%s", População);
 
 printf("ÁreaKM: \n");
 scanf("%f", ÁreaKM);
@@ -28,7 +28,7 @@ printf("PIB: \n");
 scanf("%f", PIB);
 
 printf("PontosTurísticos: \n");
-scanf("%d", PontosTuristicos);
+scanf("%s", PontosTuristicos);
 
 
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
