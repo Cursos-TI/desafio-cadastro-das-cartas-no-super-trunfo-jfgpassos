@@ -4,16 +4,33 @@
 // Tema 1 - Cadastro das Cartas
 
 int main() {
-printf("Super Trunfo Países! \n");
-
-//CARTA 1
+    int Carta_1;
+    int Cidade[20];
     int População;
     float ÁreaKM;
     float PIB;
-    int PontosTurísticos;
+    int PontosTuristicos;
 
-    scanf
-    
+//CARTA 1
+
+printf("Carta_1");
+
+printf("Cidade: \n");
+scanf("%d", Cidade);
+
+printf("Populução: \n");
+scanf("%d", População);
+
+printf("ÁreaKM: \n");
+scanf("%f", ÁreaKM);
+
+printf("PIB: \n");
+scanf("%f", PIB);
+
+printf("PontosTurísticos: \n");
+scanf("%d", PontosTuristicos);
+
+
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
