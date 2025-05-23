@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    
-    int Carta_1;
-    int Cidade[20];
+
+    char Cidade[20];
     int População;
-    float ÁreaKM;
+    float AreaKM;
     float PIB;
     int PontosTuristicos;
-
-//CARTA 1
-
-printf("Carta_1");
 
 printf("Cidade: \n");
 scanf("%s", Cidade);
@@ -20,7 +15,7 @@ printf("Populução: \n");
 scanf("%s", População);
 
 printf("ÁreaKM: \n");
-scanf("%f", ÁreaKM);
+scanf("%f", AreaKM);
 
 printf("PIB: \n");
 scanf("%f", PIB);
